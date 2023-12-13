@@ -63,4 +63,9 @@
 #### id
 - The id command expands on the whoami command and prints out our effective group membership and IDs.
 - This can be of interest to penetration testers looking to see what access a user may have and sysadmins looking to audit account permissions and group membership.
- 
+
+#### uname
+- Running uname -a will print all information about the machine in a specific order: kernel name, hostname, the kernel release, kernel version, machine hardware name, and operating system.
+- The -a flag will omit -p (processor type) and -i (hardware platform) if they are unknown.
+- Suppose we want to print out the kernel release to search for potential kernel exploits quickly. We can type uname -r to obtain this information.
+

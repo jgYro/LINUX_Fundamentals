@@ -57,3 +57,10 @@
 |lsusb|Lists USB devices|
 |lsof|Lists opened files.|
 |lspci|Lists PCI devices.|
+
+### System Commands Cont.
+
+#### id
+- The id command expands on the whoami command and prints out our effective group membership and IDs.
+- This can be of interest to penetration testers looking to see what access a user may have and sysadmins looking to audit account permissions and group membership.
+ 

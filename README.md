@@ -101,3 +101,22 @@
 - Example command to find all files with .conf extension
 -- locate *.conf
 
+### File Descriptors
+
+#### STDIN - 0
+- data stream for input
+- cat < stdout.txt
+-- redirect contents of stdout.txt as stdin to cat command
+#### STDOUT - 1
+- data stream for output
+- > 
+- - write to new or overwrite current file
+- >>
+- - append contents to current file
+#### STDERR - 2
+- data stream for error
+- 2>/dev/null
+- - Redirect all errors to /dev/null
+- - Use to not show errors of command and only successful output to stdout
+- 2> stderr.txt
+- - write all errors to stderr.txt
